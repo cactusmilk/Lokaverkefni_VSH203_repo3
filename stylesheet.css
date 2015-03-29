@@ -48,6 +48,10 @@ html {
   box-sizing: inherit;
 }
 
+
+
+/*Purecss byrjar hérna*/
+/*Media max 48em */
 @media screen and (max-width: 48em){
 
     p{
@@ -79,7 +83,7 @@ html {
 
     }
 }
-/*Menu er núna responsive*/
+/*Media min 48em*/
 @media (min-width: 48em) {
 
     .header,
@@ -106,19 +110,11 @@ html {
         left: 150px;
     }
 }
-/*-------------------*/
-.box{
-	border: 1px solid black;
-}
-/*-------------------*/
-
 
 /*
 Add transition to containers so they can push in and out.
 */
-#layout,
-#menu,
-.menu-link {
+#layout, #menu, .menu-link {
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
@@ -297,11 +293,25 @@ appears on the left side of the page.
 .menu-link span:after {
     margin-top: 0.6em;
 }
+/*CSS frá pruecss endar hérna*/
 
+/*background-color: #EBE71E;*/
 
-
-
-
+/*-------------------*/
+body{
+    background-image: url(img/bg_fixed.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#main{
+   
+    font-family: 'Orbitron', sans-serif;
+}
+.box{
+    background-color: rgba(235,231,30,0.5);
+}
+/*-------------------*/
 
 
 
